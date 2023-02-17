@@ -207,6 +207,9 @@ h6 {
 }
 
 /* PROYECTOS */
+.links-proyects {
+  padding-top: 10px;
+}
 .link{
   display: flex;
   justify-content: space-between;
