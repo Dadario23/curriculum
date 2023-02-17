@@ -1,0 +1,203 @@
+/* *{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+
+
+*{
+    --size-40: 40px; 
+    --size-30: 20px; 
+    --size-20: 20px;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif; 
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+  background-color: white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+h1{
+    margin: 0px;
+    padding: 0px;/* 
+    font-size: 45px;
+    font-weight: bolder; */
+}
+
+h3 {
+  margin-bottom: 5px;
+}
+
+
+h5{
+    margin: 0;
+    padding: 0;
+}
+
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 360px;
+    height: 100%; 
+    margin: 0px auto; 
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.container:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* INFO PRINCIPAL */
+.info-principal{
+    text-align: center;
+}
+
+.datos-personales {
+  text-align: center;
+}
+
+.contacto{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+}
+
+.contacto a.whatsapp-icon {
+    text-decoration: none;
+    color: black;
+    font-size: var(--size-40);
+}
+ .contacto a.whatsapp-icon:hover {
+    color: #25D366;
+    
+}
+ .contacto a.whatsapp-icon {
+    transition: color 0.8s linear 0.2s;
+}
+
+.contacto a.gmail-icon {
+  color: black;  
+  font-size: var(--size-40);
+
+}
+.contacto a.gmail-icon:hover {
+  color: #FF3B54;
+}
+.contacto a.gmail-icon {
+  transition: color 0.8s linear 0.2s;
+}
+
+
+.contacto a.location-icon {  
+  font-size: var(--size-40);  
+  color: black;
+}
+.contacto a.location-icon:hover {  
+  color: #DD4B3E
+  
+}
+.contacto a.location-icon {
+  transition: color 0.8s linear 0.2s;
+}
+
+.contacto a.git-icon {
+  font-size: var(--size-40);  
+  color: black;
+}
+
+.contacto a.git-icon:hover {
+  color: rgb(187, 2, 187);
+}
+
+.contacto a.git-icon{
+  transition: color 0.8s linear 0.2s;
+}
+
+.contacto a.linkedin-icon { 
+  font-size: var(--size-40);  
+  color: black;
+}
+.contacto a.linkedin-icon:hover {  
+  color: #0095FF;
+}
+
+.contacto a.linkedin-icon { 
+  transition: color 0.8s linear 0.2s;
+}
+
+/* OBJETIVOS PERSONALES */
+
+.text-objetivos{
+    
+}
+
+/* HABILIDADES */
+.titulo-habilidades{
+  display: flex;
+  align-items: center;
+  justify-content:flex-start;
+  gap: 5px;
+}
+
+.icon-habilidades{
+  margin-top: 15px;
+}
+
+
+/* TECNOLOGIAS CURSADAS */
+.tecnologias-cursadas{
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  justify-content: center;
+}
+.accordion {
+  font-family: 'Poppins';
+  background-color: white;
+  color: #444;/* 
+  cursor: pointer; */
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+  border-radius: 15px;
+  font-weight:bold;
+  
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+  font-weight:bold;
+}
+
+.link-top{
+  text-align: end;
+}
