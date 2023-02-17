@@ -28,6 +28,9 @@ body{
   margin-top: 30px;
   margin-bottom: 30px;
 }
+a {
+  text-decoration:none;
+}
 
 h1{
     margin: 0px;
@@ -145,9 +148,9 @@ h6 {
 
 /* OBJETIVOS PERSONALES */
 
-.text-objetivos{
+/* .text-objetivos{
     
-}
+} */
 
 /* HABILIDADES */
 .titulo-habilidades{
@@ -200,4 +203,11 @@ h6 {
 
 .link-top{
   text-align: end;
+  margin-top: 20px;
+}
+
+/* PROYECTOS */
+.link{
+  display: flex;
+  justify-content: space-between;
 }
